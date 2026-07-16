@@ -8,9 +8,9 @@ export const metadata = {
   authors: [{ name: "Corvex Team" }],
   robots: "index, follow",
   icons: {
-    icon: "/logo.jpg", // Official bird logo as the favicon!
-    shortcut: "/logo.jpg",
-    apple: "/logo.jpg",
+    icon: "/logo2.png", // Official bird logo as the favicon!
+    shortcut: "/logo2.png",
+    apple: "/logo2.png",
   },
 };
 
@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/logo.jpg" />
+        <link rel="icon" href="/logo2.png" />
       </head>
       <body>
         <ClientLayoutWrapper>{children}</ClientLayoutWrapper>
